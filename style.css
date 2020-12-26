@@ -1,0 +1,170 @@
+nav {
+  position: relative;
+  z-index: 0;
+}
+
+.yellow {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.yellow img {
+  max-width: 250px;
+}
+
+.red {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+.red a {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.1em;
+  color: black;
+}
+.red a:hover {
+  text-decoration: none;
+  color: white;
+}
+.red ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.bg_main_color {
+  background-color: #f5f5dc;
+}
+
+.size {
+  min-height: 640px;
+}
+
+.bg_image {
+  background: url("/imag/camera.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.MyName {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.1em;
+  color: #b3b3b3;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.visitka {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+.visitka .MyFoto {
+  display: flex;
+}
+.visitka .MyFoto img {
+  max-height: 600px;
+  overflow: hidden;
+}
+.visitka .aboutMe {
+  max-width: 400px;
+}
+.visitka .aboutMe p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1em;
+  color: black;
+}
+
+.fotorama {
+  display: flex;
+  justify-content: center;
+}
+
+.NamePortf {
+  display: flex;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.1em;
+  color: #b3b3b3;
+  padding: 1% 0;
+}
+
+.bg_img_fon {
+  background: url("/imag/fon.jpg") repeat;
+  background-attachment: fixed;
+}
+
+.carta_one {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  margin: 0 20px;
+}
+.carta_one img {
+  max-width: 300px;
+}
+.carta_one a {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.1em;
+  color: #b3b3b3;
+}
+.carta_one a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#PriceAndConect {
+  background: #f5f5dc;
+}
+
+.PriceAndConect {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.5em;
+  color: black;
+}
+
+.job_name {
+  font-style: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.8em;
+  color: black;
+}
+
+.job_text {
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1em;
+  color: black;
+}
+
+.price {
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4em;
+  color: black;
+}
+
+.job_weddingAndAdvertising {
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+footer {
+  min-height: 300px;
+  background: linear-gradient(to top, rgba(245, 245, 220, 0.3), rgba(245, 245, 220, 0.3)), url("/imag/backFon.jpg") repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+/*# sourceMappingURL=style.css.map */
